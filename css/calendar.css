@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor-calendario{
+    text-align: center;
+    width: 300px;
+}
+
+.calendario-lista {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+.first-day{
+    grid-column-start: 5;
+}
+
+.day-name{
+    background: #eee;
+    font-weight: bold;
+}
+
+li.day {
+    text-align: right;
+}
+
+.calendario-encabezado {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendario-encabezado > div {
+    width: 5px;
+}
+
+.calendario-lista > div {
+    width: 100%;
+}
+
+#mes {
+    text-align: center;
+}
+
+/* 
+    Estilo del calendario
+*/

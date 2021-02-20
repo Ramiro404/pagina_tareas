@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-do App</title>
+        <link href="css/botones.css" rel="stylesheet" type="text/css">
+        <link href="css/fondo.css" rel="stylesheet" type="text/css">
+        <link href="css/flex.css" rel="stylesheet" type="text/css">
+        <link href="css/grid.css" rel="stylesheet" type="text/css">
+        <link href="css/calendar.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        <div id="contenedor-calendario" class="contenedor-calendario">
+            <div class="calendario-encabezado">
+                <div><button id="btnAnteriorMes">L</button></div>
+                <div id="mes"></div>
+                <div><button id="btnSiguienteMes">R</button></div>
+            </div>
+            <ol id="calendario-lista">
+                <div id="dias-semana" class="calendario-lista"></div>
+                <div id="dias-mes" class="calendario-lista">
+                    <!-- <li id="primer-dia" class="day">1444444444444</li> -->
+                </div>
+                <!-- <li id="primer-dia" class="first-day day">1</li> -->
+            </ol>
+        </div>
+        <script src="js/calendario-codigo-limpio.js"></script>
+    </body>
+    
+</html>
